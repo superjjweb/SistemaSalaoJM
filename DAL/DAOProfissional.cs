@@ -23,37 +23,37 @@ namespace DAL
             cmd.Connection = conexao.ObjetoConexao;
             cmd.CommandText = "insert into profissional (nome_prof, cpf_prof, login_prof, senha_prof, cod_perfil, sal_prof, comiss_prof, nasc_prof, sexo_prof, end_prof, cep_prof, cidade_prof, uf_prof, tel_prof, cel_prof, email_prof, foto_prof, obs_prof, cat_cod) " +
             "values (@nome,@cpf,@login,@senha,@codperf,@salario,@comiss,@nasc,@sexo,@end,@cep,@cidade,@uf,@tel,@cel,@email,@foto,@obs,@catcod); select @@IDENTITY;";
-            cmd.Parameters.AddWithValue("@nome", obj.ProNome);
-            cmd.Parameters.AddWithValue("@cpf", obj.ProCpf);
-            cmd.Parameters.AddWithValue("@login", obj.ProLogin);
-            cmd.Parameters.AddWithValue("@senha", obj.ProSenha);
-            cmd.Parameters.AddWithValue("@codperf", obj.ProPerfil);
-            cmd.Parameters.AddWithValue("@salario", obj.ProSalario);
-            cmd.Parameters.AddWithValue("@comiss", obj.ProComiss);
-            cmd.Parameters.AddWithValue("@nasc", obj.ProNasc);
-            cmd.Parameters.AddWithValue("@sexo", obj.ProSexo);
-            cmd.Parameters.AddWithValue("@end", obj.ProEnd);
-            cmd.Parameters.AddWithValue("@cep", obj.ProCep);
-            cmd.Parameters.AddWithValue("@cidade", obj.ProCidade);
-            cmd.Parameters.AddWithValue("@uf", obj.ProUF);
-            cmd.Parameters.AddWithValue("@tel", obj.ProTel);
-            cmd.Parameters.AddWithValue("@cel", obj.ProCel);
-            cmd.Parameters.AddWithValue("@email", obj.ProEmail);
+            cmd.Parameters.AddWithValue("@nome", modelo.ProNome);
+            cmd.Parameters.AddWithValue("@cpf", modelo.ProCpf);
+            cmd.Parameters.AddWithValue("@login", modelo.ProLogin);
+            cmd.Parameters.AddWithValue("@senha", modelo.ProSenha);
+            cmd.Parameters.AddWithValue("@codperf", modelo.ProPerfil);
+            cmd.Parameters.AddWithValue("@salario", modelo.ProSalario);
+            cmd.Parameters.AddWithValue("@comiss", modelo.ProComiss);
+            cmd.Parameters.AddWithValue("@nasc", modelo.ProNasc);
+            cmd.Parameters.AddWithValue("@sexo", modelo.ProSexo);
+            cmd.Parameters.AddWithValue("@end", modelo.ProEnd);
+            cmd.Parameters.AddWithValue("@cep", modelo.ProCep);
+            cmd.Parameters.AddWithValue("@cidade", modelo.ProCidade);
+            cmd.Parameters.AddWithValue("@uf", modelo.ProUF);
+            cmd.Parameters.AddWithValue("@tel", modelo.ProTel);
+            cmd.Parameters.AddWithValue("@cel", modelo.ProCel);
+            cmd.Parameters.AddWithValue("@email", modelo.ProEmail);
             cmd.Parameters.Add("@foto", System.Data.SqlDbType.Image);
-            if (obj.ProFoto == null)
+            if (modelo.ProFoto == null)
             {
                 //cmd.Parameters.AddWithValue("@foto_prof", DBNull.Value);
                 cmd.Parameters["@foto"].Value = DBNull.Value;
             }
             else
             {
-                //cmd.Parameters.AddWithValue("@foto_prof", obj.foto_prof);
-                cmd.Parameters["@foto"].Value = obj.ProFoto;
+                //cmd.Parameters.AddWithValue("@foto_prof", modelo.foto_prof);
+                cmd.Parameters["@foto"].Value = modelo.ProFoto;
             }
-            cmd.Parameters.AddWithValue("@obs", obj.ProObs);
-            cmd.Parameters.AddWithValue("@catcod", obj.CatCod);
+            cmd.Parameters.AddWithValue("@obs", modelo.ProObs);
+            cmd.Parameters.AddWithValue("@catcod", modelo.CatCod);
             conexao.Conectar();
-            obj.ProCod = Convert.ToInt32(cmd.ExecuteScalar());
+            modelo.ProCod = Convert.ToInt32(cmd.ExecuteScalar());
             conexao.Desconectar();
         }
 
@@ -70,36 +70,36 @@ namespace DAL
                 "cel_prof = (@cel), email_prof = (@email), foto_prof = (@foto), " +
                 "obs_prof = (@obs), " +
                 "cat_cod = (@catcod) WHERE pro_cod = (@codigo) ";
-            cmd.Parameters.AddWithValue("@nome", obj.ProNome);
-            cmd.Parameters.AddWithValue("@cpf", obj.ProCpf);
-            cmd.Parameters.AddWithValue("@login", obj.ProLogin);
-            cmd.Parameters.AddWithValue("@senha", obj.ProSenha);
-            cmd.Parameters.AddWithValue("@codperf", obj.ProPerfil);
-            cmd.Parameters.AddWithValue("@salario", obj.ProSalario);
-            cmd.Parameters.AddWithValue("@comiss", obj.ProComiss);
-            cmd.Parameters.AddWithValue("@nasc", obj.ProNasc);
-            cmd.Parameters.AddWithValue("@sexo", obj.ProSexo);
-            cmd.Parameters.AddWithValue("@end", obj.ProEnd);
-            cmd.Parameters.AddWithValue("@cep", obj.ProCep);
-            cmd.Parameters.AddWithValue("@cidade", obj.ProCidade);
-            cmd.Parameters.AddWithValue("@uf", obj.ProUF);
-            cmd.Parameters.AddWithValue("@tel", obj.ProTel);
-            cmd.Parameters.AddWithValue("@cel", obj.ProCel);
-            cmd.Parameters.AddWithValue("@email", obj.ProEmail);
+            cmd.Parameters.AddWithValue("@nome", modelo.ProNome);
+            cmd.Parameters.AddWithValue("@cpf", modelo.ProCpf);
+            cmd.Parameters.AddWithValue("@login", modelo.ProLogin);
+            cmd.Parameters.AddWithValue("@senha", modelo.ProSenha);
+            cmd.Parameters.AddWithValue("@codperf", modelo.ProPerfil);
+            cmd.Parameters.AddWithValue("@salario", modelo.ProSalario);
+            cmd.Parameters.AddWithValue("@comiss", modelo.ProComiss);
+            cmd.Parameters.AddWithValue("@nasc", modelo.ProNasc);
+            cmd.Parameters.AddWithValue("@sexo", modelo.ProSexo);
+            cmd.Parameters.AddWithValue("@end", modelo.ProEnd);
+            cmd.Parameters.AddWithValue("@cep", modelo.ProCep);
+            cmd.Parameters.AddWithValue("@cidade", modelo.ProCidade);
+            cmd.Parameters.AddWithValue("@uf", modelo.ProUF);
+            cmd.Parameters.AddWithValue("@tel", modelo.ProTel);
+            cmd.Parameters.AddWithValue("@cel", modelo.ProCel);
+            cmd.Parameters.AddWithValue("@email", modelo.ProEmail);
             cmd.Parameters.Add("@foto", System.Data.SqlDbType.Image);
-            if (obj.ProFoto == null)
+            if (modelo.ProFoto == null)
             {
                 //cmd.Parameters.AddWithValue("@foto_prof", DBNull.Value);
                 cmd.Parameters["@foto"].Value = DBNull.Value;
             }
             else
             {
-                //cmd.Parameters.AddWithValue("@foto_prof", obj.foto_prof);
-                cmd.Parameters["@foto"].Value = obj.ProFoto;
+                //cmd.Parameters.AddWithValue("@foto_prof", modelo.foto_prof);
+                cmd.Parameters["@foto"].Value = modelo.ProFoto;
             }
-            cmd.Parameters.AddWithValue("@obs", obj.ProObs);
-            cmd.Parameters.AddWithValue("@catcod", obj.CatCod);
-            cmd.Parameters.AddWithValue("@codigo", obj.ProCod);
+            cmd.Parameters.AddWithValue("@obs", modelo.ProObs);
+            cmd.Parameters.AddWithValue("@catcod", modelo.CatCod);
+            cmd.Parameters.AddWithValue("@codigo", modelo.ProCod);
             conexao.Conectar();
             cmd.ExecuteNonQuery();
             conexao.Desconectar();
