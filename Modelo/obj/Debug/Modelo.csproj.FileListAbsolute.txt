@@ -1,0 +1,10 @@
+c:\users\jose joaquim\documents\visual studio 2015\Projects\SistemaSalaoJM\Modelo\bin\Debug\Modelo.dll
+c:\users\jose joaquim\documents\visual studio 2015\Projects\SistemaSalaoJM\Modelo\bin\Debug\Modelo.pdb
+c:\users\jose joaquim\documents\visual studio 2015\Projects\SistemaSalaoJM\Modelo\obj\Debug\Modelo.csprojResolveAssemblyReference.cache
+c:\users\jose joaquim\documents\visual studio 2015\Projects\SistemaSalaoJM\Modelo\obj\Debug\Modelo.dll
+c:\users\jose joaquim\documents\visual studio 2015\Projects\SistemaSalaoJM\Modelo\obj\Debug\Modelo.pdb
+C:\Users\Suporte\Documents\Visual Studio 2015\Projects\SistemaSalaoJM\Modelo\bin\Debug\Modelo.dll
+C:\Users\Suporte\Documents\Visual Studio 2015\Projects\SistemaSalaoJM\Modelo\bin\Debug\Modelo.pdb
+C:\Users\Suporte\Documents\Visual Studio 2015\Projects\SistemaSalaoJM\Modelo\obj\Debug\Modelo.csprojResolveAssemblyReference.cache
+C:\Users\Suporte\Documents\Visual Studio 2015\Projects\SistemaSalaoJM\Modelo\obj\Debug\Modelo.dll
+C:\Users\Suporte\Documents\Visual Studio 2015\Projects\SistemaSalaoJM\Modelo\obj\Debug\Modelo.pdb

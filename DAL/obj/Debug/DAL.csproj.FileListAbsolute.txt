@@ -1,0 +1,14 @@
+c:\users\jose joaquim\documents\visual studio 2015\Projects\SistemaSalaoJM\DAL\bin\Debug\DAL.dll
+c:\users\jose joaquim\documents\visual studio 2015\Projects\SistemaSalaoJM\DAL\bin\Debug\DAL.pdb
+c:\users\jose joaquim\documents\visual studio 2015\Projects\SistemaSalaoJM\DAL\bin\Debug\Modelo.dll
+c:\users\jose joaquim\documents\visual studio 2015\Projects\SistemaSalaoJM\DAL\bin\Debug\Modelo.pdb
+c:\users\jose joaquim\documents\visual studio 2015\Projects\SistemaSalaoJM\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+c:\users\jose joaquim\documents\visual studio 2015\Projects\SistemaSalaoJM\DAL\obj\Debug\DAL.dll
+c:\users\jose joaquim\documents\visual studio 2015\Projects\SistemaSalaoJM\DAL\obj\Debug\DAL.pdb
+C:\Users\Suporte\Documents\Visual Studio 2015\Projects\SistemaSalaoJM\DAL\bin\Debug\DAL.dll
+C:\Users\Suporte\Documents\Visual Studio 2015\Projects\SistemaSalaoJM\DAL\bin\Debug\DAL.pdb
+C:\Users\Suporte\Documents\Visual Studio 2015\Projects\SistemaSalaoJM\DAL\bin\Debug\Modelo.dll
+C:\Users\Suporte\Documents\Visual Studio 2015\Projects\SistemaSalaoJM\DAL\bin\Debug\Modelo.pdb
+C:\Users\Suporte\Documents\Visual Studio 2015\Projects\SistemaSalaoJM\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\Suporte\Documents\Visual Studio 2015\Projects\SistemaSalaoJM\DAL\obj\Debug\DAL.dll
+C:\Users\Suporte\Documents\Visual Studio 2015\Projects\SistemaSalaoJM\DAL\obj\Debug\DAL.pdb

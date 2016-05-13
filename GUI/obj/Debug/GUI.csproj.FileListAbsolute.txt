@@ -1,0 +1,31 @@
+c:\users\jose joaquim\documents\visual studio 2015\Projects\SistemaSalaoJM\GUI\bin\Debug\GUI.exe.config
+c:\users\jose joaquim\documents\visual studio 2015\Projects\SistemaSalaoJM\GUI\bin\Debug\GUI.exe
+c:\users\jose joaquim\documents\visual studio 2015\Projects\SistemaSalaoJM\GUI\bin\Debug\GUI.pdb
+c:\users\jose joaquim\documents\visual studio 2015\Projects\SistemaSalaoJM\GUI\bin\Debug\BLL.dll
+c:\users\jose joaquim\documents\visual studio 2015\Projects\SistemaSalaoJM\GUI\bin\Debug\DAL.dll
+c:\users\jose joaquim\documents\visual studio 2015\Projects\SistemaSalaoJM\GUI\bin\Debug\Modelo.dll
+c:\users\jose joaquim\documents\visual studio 2015\Projects\SistemaSalaoJM\GUI\bin\Debug\BLL.pdb
+c:\users\jose joaquim\documents\visual studio 2015\Projects\SistemaSalaoJM\GUI\bin\Debug\DAL.pdb
+c:\users\jose joaquim\documents\visual studio 2015\Projects\SistemaSalaoJM\GUI\bin\Debug\Modelo.pdb
+c:\users\jose joaquim\documents\visual studio 2015\Projects\SistemaSalaoJM\GUI\obj\Debug\GUI.csprojResolveAssemblyReference.cache
+c:\users\jose joaquim\documents\visual studio 2015\Projects\SistemaSalaoJM\GUI\obj\Debug\GUI.Properties.Resources.resources
+c:\users\jose joaquim\documents\visual studio 2015\Projects\SistemaSalaoJM\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
+c:\users\jose joaquim\documents\visual studio 2015\Projects\SistemaSalaoJM\GUI\obj\Debug\GUI.exe
+c:\users\jose joaquim\documents\visual studio 2015\Projects\SistemaSalaoJM\GUI\obj\Debug\GUI.pdb
+C:\Users\Suporte\Documents\Visual Studio 2015\Projects\SistemaSalaoJM\GUI\bin\Debug\GUI.exe.config
+C:\Users\Suporte\Documents\Visual Studio 2015\Projects\SistemaSalaoJM\GUI\obj\Debug\GUI.exe
+C:\Users\Suporte\Documents\Visual Studio 2015\Projects\SistemaSalaoJM\GUI\obj\Debug\GUI.pdb
+C:\Users\Suporte\Documents\Visual Studio 2015\Projects\SistemaSalaoJM\GUI\bin\Debug\GUI.exe
+C:\Users\Suporte\Documents\Visual Studio 2015\Projects\SistemaSalaoJM\GUI\bin\Debug\GUI.pdb
+C:\Users\Suporte\Documents\Visual Studio 2015\Projects\SistemaSalaoJM\GUI\bin\Debug\BLL.dll
+C:\Users\Suporte\Documents\Visual Studio 2015\Projects\SistemaSalaoJM\GUI\bin\Debug\DAL.dll
+C:\Users\Suporte\Documents\Visual Studio 2015\Projects\SistemaSalaoJM\GUI\bin\Debug\Modelo.dll
+C:\Users\Suporte\Documents\Visual Studio 2015\Projects\SistemaSalaoJM\GUI\bin\Debug\BLL.pdb
+C:\Users\Suporte\Documents\Visual Studio 2015\Projects\SistemaSalaoJM\GUI\bin\Debug\DAL.pdb
+C:\Users\Suporte\Documents\Visual Studio 2015\Projects\SistemaSalaoJM\GUI\bin\Debug\Modelo.pdb
+C:\Users\Suporte\Documents\Visual Studio 2015\Projects\SistemaSalaoJM\GUI\obj\Debug\GUI.csprojResolveAssemblyReference.cache
+C:\Users\Suporte\Documents\Visual Studio 2015\Projects\SistemaSalaoJM\GUI\obj\Debug\GUI.frmPrincipal.resources
+C:\Users\Suporte\Documents\Visual Studio 2015\Projects\SistemaSalaoJM\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\Suporte\Documents\Visual Studio 2015\Projects\SistemaSalaoJM\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
+C:\Users\Suporte\Documents\Visual Studio 2015\Projects\SistemaSalaoJM\GUI\obj\Debug\GUI.frmCadastroCategoria.resources
+C:\Users\Suporte\Documents\Visual Studio 2015\Projects\SistemaSalaoJM\GUI\obj\Debug\GUI.frmCadastroPerfil.resources
